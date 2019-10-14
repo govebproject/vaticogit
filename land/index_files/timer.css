@@ -1,0 +1,36 @@
+.sjs {
+  /*
+  display: inline-block;
+   
+  margin-left: -10px;
+  margin-top: 35px;
+  */
+}
+.sjs .countBlock {
+  width: 40px;
+  /*height: 35px;*/
+  /* background: url(../img/countBlock-fixed.png) no-repeat top center;
+  background-size: 100% 100%; */
+  display: inline-block;
+}
+.sjs .countBlock .countNum {
+  /*
+  color: #563c29;
+  font-size: 24px; 
+  font-weight: 400;
+  line-height: 24px;
+  */
+  text-align: center;
+  padding:  0 0;
+  /* letter-spacing: 18px; */
+  position: relative;
+  left: 3px;
+}
+.sjs .countDivider {
+  display: inline-block;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+

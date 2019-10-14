@@ -1,0 +1,29 @@
+$(document).ready(function(){
+
+
+	function initTimer(){
+		var ts = new Date();
+		var currentMinutes = ts.getMinutes();
+		if(currentMinutes < 30){
+			ts.setHours(ts.getHours() + 3);
+		}
+		else {
+			ts.setHours(ts.getHours() + 4);
+		}
+		ts.setMinutes(0);
+		ts.setSeconds(0);
+		$('.sjs').countdown(
+			ts, 
+			function(event) {
+				var $this = $(this);
+				$this.html(event.strftime('<div class="countBlock"><div class="countNum">%H</div></div><div class="countDivider">:</div><div class="countBlock"><div class="countNum">%M</div></div><div class="countDivider">:</div><div class="countBlock"><div class="countNum">%S</div></div>'));
+			}
+		);
+
+			/*$(".sjs").countdown({
+				date: ts,
+				format: "on"
+			});*/
+	};
+	initTimer();
+});

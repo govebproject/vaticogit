@@ -1,0 +1,37 @@
+/* Heading font */
+/* CeraPro-Regular */
+@font-face {
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/CeraProd41d.eot") format("embedded-opentype"), url("../fonts/CeraPro.woff") format("woff"), url("../fonts/CeraPro.ttf") format("truetype"), url("../fonts/CeraPro.svg") format("svg");
+}
+/* CeraPro-Italic */
+@font-face {
+  font-family: "CeraPro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/CeraPro-Italicd41d.eot") format("embedded-opentype"), url("../fonts/CeraPro-Italic.woff") format("woff"), url("../fonts/CeraPro-Italic.ttf") format("truetype"), url("../fonts/CeraPro-Italic.svg") format("svg");
+}
+/* CeraPro-Medium */
+@font-face {
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/CeraPro-Mediumd41d.eot") format("embedded-opentype"), url("../fonts/CeraPro-Medium.woff") format("woff"), url("../fonts/CeraPro-Medium.ttf") format("truetype"), url("../fonts/CeraPro-Medium.svg") format("svg");
+}
+/* CeraPro-Bold */
+@font-face {
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/CeraPro-Boldd41d.eot") format("embedded-opentype"), url("../fonts/CeraPro-Bold.woff") format("woff"), url("../fonts/CeraPro-Bold.ttf") format("truetype"), url("../fonts/CeraPro-Bold.svg") format("svg");
+}
+/* CeraPro-Black */
+@font-face {
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/CeraPro-Blackd41d.eot") format("embedded-opentype"), url("../fonts/CeraPro-Black.woff") format("woff"), url("../fonts/CeraPro-Black.ttf") format("truetype"), url("../fonts/CeraPro-Black.svg#CeraPro") format("svg");
+}
+/* Body font */
